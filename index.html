@@ -11,8 +11,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- add Montserrat font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- add all fontstyles from ggogle fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <!-- add CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -23,7 +23,7 @@
 <body>
   <!-- new section:title -->
 <section id="title">
-  <!-- add navigation Bar -->
+    <!-- add navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar sticky-top">
     <!-- add brand logo to nav bar -->
     <a class="navbar-brand" href="">The Art of Healthy Living</a>
@@ -42,24 +42,27 @@
           <a class="nav-link" href="">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">About us</a>
+          <a class="nav-link" href="">Contact us</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <!-- produce container one row -->
+  <!-- add fluid container for the title section  -->
+  <div class="container-fluid">
+  <!-- produce one row in container -->
   <div class="row">
     <!-- produce colum with 50% -->
-    <div class="col-lg-6">
-      <h1>We inspire our community to adpot healthy lifestyle.</h1>
+    <div class="col-lg-6 quot">
+      <h1>We inspire our community to adpot a healthy lifestyle.</h1>
+      <h4>“Health is a state of complete harmony of the body, mind and spirit. When one is free from physical disabilities and mental distractions, the gates of the soul open.” – B.K.S. Iyengar</h4>
     </div>
     <!-- produce 2nd colum with 50%  for photo-->
-    <div class="col-lg-6">
+    <div class="col-lg-6 logo">
       <!-- 242	239	229	#F2EFE5 -->
-      <img src="images/logo.jpg" alt="iphone-mockup" width="60%" height="100%">
+      <img src="images/logo.jpg" alt="iphone-mockup" width="100%" height="100%">
     </div>
   </div>
+</div>
 
   </section>
 

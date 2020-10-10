@@ -2,6 +2,7 @@
 <html>
 
 <!-- head -->
+
 <head>
   <meta charset="utf-8">
   <!-- title -->
@@ -13,6 +14,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!-- add all fontstyles from ggogle fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- font Awesome -->
+  <script src="https://kit.fontawesome.com/d1b53fc1c0.js" crossorigin="anonymous"></script>
   <!-- add CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -22,47 +25,47 @@
 
 <body>
   <!-- new section:title -->
-<section id="title">
+  <section id="title">
     <!-- add navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar sticky-top">
-    <!-- add brand logo to nav bar -->
-    <a class="navbar-brand" href="">The Art of Healthy Living</a>
-    <!-- add hambergur toggler to nav bar -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- link the hambergur toggler to the button in the nav bar -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- un-oreded list of button in the nav bar -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Contact us</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar sticky-top">
+      <!-- add brand logo to nav bar -->
+      <a class="navbar-brand" href="">The Art of Healthy Living</a>
+      <!-- add hambergur toggler to nav bar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- link the hambergur toggler to the button in the nav bar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- un-oreded list of button in the nav bar -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- add fluid container for the title section  -->
+    <div class="container-fluid">
+      <!-- produce one row in container -->
+      <div class="row">
+        <!-- produce colum with 50% -->
+        <div class="col-lg-6 quot">
+          <h1>We inspire our community to adpot a healthy lifestyle.</h1>
+          <h4>“Health is a state of complete harmony of the body, mind and spirit. When one is free from physical disabilities and mental distractions, the gates of the soul open.” – B.K.S. Iyengar</h4>
+        </div>
+        <!-- produce 2nd colum with 50%  for photo-->
+        <div class="col-lg-6 logo">
+          <!-- 242	239	229	#F2EFE5 -->
+          <img src="images/logo.jpg" alt="healthy_lifestyle" width="100%" height="100%">
+        </div>
+      </div>
     </div>
-  </nav>
-  <!-- add fluid container for the title section  -->
-  <div class="container-fluid">
-  <!-- produce one row in container -->
-  <div class="row">
-    <!-- produce colum with 50% -->
-    <div class="col-lg-6 quot">
-      <h1>We inspire our community to adpot a healthy lifestyle.</h1>
-      <h4>“Health is a state of complete harmony of the body, mind and spirit. When one is free from physical disabilities and mental distractions, the gates of the soul open.” – B.K.S. Iyengar</h4>
-    </div>
-    <!-- produce 2nd colum with 50%  for photo-->
-    <div class="col-lg-6 logo">
-      <!-- 242	239	229	#F2EFE5 -->
-      <img src="images/logo.jpg" alt="iphone-mockup" width="100%" height="100%">
-    </div>
-  </div>
-</div>
 
   </section>
 
@@ -70,16 +73,25 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-viruses fa-4x"></i>
+        <h3>Inhance Immunity.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Balance Emotion</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-brain fa-4x"></i>
+        <h3>Clear Mentality.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
   </section>
 
 

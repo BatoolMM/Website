@@ -81,9 +81,7 @@ body {
 }
 
 /* testimonials sesction  */
-
 #testimonials {
-  padding: 7% 13%;
   text-align: center;
   background-color: #8f8f8f;
   color: #33393F;
@@ -95,17 +93,59 @@ body {
   margin: 20;
 }
 
-/* press section */
+.carousel-item {
+  padding: 7% 13%;
+}
 
+/* press section */
 #press {
   background-color: #8f8f8f;
   text-align: center;
   padding-bottom: 3%;
-
 }
 
 .press-logo {
-width: 15%;
-margin: 20px 20px;
+  width: 15%;
+  margin: 20px 20px;
+}
 
+/* prices */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background: #8f8f8f;
+  color: #33393F;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media_query */
+@media (max-width:1028) {
+  #title {
+    text-align: center;
+  }
 }
